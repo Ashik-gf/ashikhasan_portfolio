@@ -65,7 +65,7 @@ const Home = () => {
             <h1 className="text-7xl text-[#98FAEC]">Developer</h1>
           </div>
           {/* About Myself */}
-          <div className=" sm:h-[400px] sm:flex sm:justify-between items-center py-4">
+          <div className=" sm:h-[400px] sm:flex sm:justify-between items-center px-2 py-4">
             {/* left side */}
             <div
               className="border-[4px] border-r-0 border-l-[#12F7D6] border-t-[1px] border-b-0 border-t-[#12F7D6] w-[200px] mx-auto
