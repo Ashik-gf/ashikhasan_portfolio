@@ -10,7 +10,7 @@ const Works = () => {
         </div>
       
             {/* Carasole */}
-            <div className=" w-[400px] md:w-[550px] h-[350px] mx-auto py-8">
+            <div className=" w-[380px] md:w-[550px] h-[350px] mx-auto px-2 py-8">
                 <SimpleSlider />
             </div>
     </div>
