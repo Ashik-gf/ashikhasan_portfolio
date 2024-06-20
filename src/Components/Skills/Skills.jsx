@@ -1,9 +1,5 @@
 import React from "react";
 import banner from "../../assets/prog.jpg";
-import { BsThreeDotsVertical } from "react-icons/bs";
-import { GoDotFill } from "react-icons/go";
-import { FaAngleLeft, FaAngleRight, FaDeskpro } from "react-icons/fa";
-import line from '../../assets/Line22.svg';
 import { IoIosDesktop } from "react-icons/io";
 import html from '../../assets/HTML.svg'
 import css from '../../assets/css.svg'
@@ -34,7 +30,7 @@ const Skills = () => {
             </div>
             </div>
 
-            <div className=" grid grid-cols-2 sm:flex justify-between items-center gap-4 sm:gap-12">
+            <div className=" grid grid-cols-2 sm:flex sm:justify-center items-center gap-4 sm:gap-24">
                 {/* HTML */}
                 <div className=" flex flex-col items-center justify-center">
                 <img className=" h-20 w-20" src={html} />

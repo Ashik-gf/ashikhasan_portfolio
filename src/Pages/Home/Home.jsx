@@ -43,11 +43,11 @@ const mydata = [
 ];
 const Home = () => {
   return (
-    <div id="#home" className=" h-full">
-      <div className=" relative  w-full grid justify-self-center  grid-cols-12 sm:h-[800p]">
-        <div className="fixed top-20 right-[1200px]  pt-4 gird-cols-1 w-full hidden sm:flex justify-end">
+    <div id="#home" className=" max-w-7xl relative h-full">
+      
+      <div className=" w-full grid   grid-cols-12 sm:h-[800p]">
+        {/* <div className="fixed top-20 left-5   pt-4 gird-cols-1 w-full ">
           <div className="w-12 h-[300px] flex flex-col gap-4 py-4 rounded-full items-center border-2 border-white">
-           
                 <div className="flex flex-col justify-between items-center ">
                    <a className="text-xl gap-8 hover:bg-white p-2 rounded-full hover:text-black"  href="#home"> <CgMenuGridO /></a>
                    <a className="text-xl gap-8 hover:bg-white p-2 rounded-full hover:text-black"  href="#contact"> <IoIosContact /></a>
@@ -57,15 +57,15 @@ const Home = () => {
                 </div>
           
           </div>
-        </div>
+        </div> */}
 
-        <div className=" w-full sm:max-h-fit py-4 col-span-12 sm:col-span-11 ">
+        <div className=" w-full sm:max-h-fit py-4 col-span-12 sm:col-span-12  ">
           {/* Developer heading */}
           <div className="title text-center sm:py-8 sm:pb-12">
             <h1 className="text-7xl text-[#98FAEC]">Developer</h1>
           </div>
           {/* About Myself */}
-          <div className=" sm:h-[400px] sm:flex sm:justify-between items-center px-12 py-4">
+          <div className=" sm:h-[400px] sm:flex sm:justify-between items-center py-4">
             {/* left side */}
             <div
               className="border-[4px] border-r-0 border-l-[#12F7D6] border-t-[1px] border-b-0 border-t-[#12F7D6] w-[200px] mx-auto
@@ -230,6 +230,7 @@ const Home = () => {
       <div id="skills" className="">
         <Skills />
       </div>
+      {/* works */}
       <div id="work" className="">
         <Works />
       </div>

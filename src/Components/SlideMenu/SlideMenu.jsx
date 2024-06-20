@@ -50,12 +50,12 @@ const SlideMenu = ({open}) => {
     to={nav.path}
     className={({ isActive }) =>
       [
-        isActive ? `text-[#12F7D6] ${nav.id=='3' && 'text-black'}` : " ",
+        isActive ? `text-[#12F7D6] ` : " ",
       ].join(" ")
     }
   >
-    <div className="flex justify-center items-center gap-2">
-      <p className=' text-[#12F7D6]'>{nav.icon}</p> <span> {nav.title}</span> <span className={`${open?"hidden":""}`}>{nav.input}</span>
+    <div className="flex justify-center items-center gap-2 cursor-pointer">
+      <p className=' text-[#12F7D6]'>{nav.icon}</p> <span className=' hover:text-[#047262]'> {nav.title}</span> <span className={`${open?"hidden":""}`}>{nav.input}</span>
     </div>
    
   </NavLink> )

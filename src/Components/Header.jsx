@@ -65,7 +65,7 @@ const handeOpen =()=>{
           {/* place for slide home */}
         </button>
         {
-            open ? <div className=' absolute top-12 -right-20 -translate-x-20 transition-transform duration-1000 delay-700'>
+            open ? <div className=' sm:hidden absolute z-20 top-12 -right-20 -translate-x-20 transition-transform duration-1000 delay-700'>
               <SlideMenu open={open} /> 
             </div>: ""
             
