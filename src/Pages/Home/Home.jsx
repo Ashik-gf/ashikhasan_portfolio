@@ -43,7 +43,7 @@ const mydata = [
 ];
 const Home = () => {
   return (
-    <div id="#home" className=" max-w-7xl relative h-full">
+    <div id="#home" className="h-full">
       
       <div className=" w-full grid   grid-cols-12 sm:h-[800p]">
         {/* <div className="fixed top-20 left-5   pt-4 gird-cols-1 w-full ">
